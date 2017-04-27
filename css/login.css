@@ -1,0 +1,80 @@
+html , body{
+  margin: 0px;
+    height: 1024px;
+    width: 100%;
+background-color: #605191;
+   
+}
+
+* {
+    font-family: myFirstFont ;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/brandon-grot/Brandon_reg.otf);
+}
+
+.login {
+  width: 40%;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  background: white;
+  max-width: 70%;
+  margin: 0 auto 50px;
+  padding: 1%;
+  text-align: center;
+
+  border:1px solid #666;
+  box-shadow: 
+    1px 1px 10px #333, /* Adds shadow effects to right and bottom */
+    -1px 0px 10px #333, /* Adds shadow effects to left and top */
+    -5px 5px 10px #333, /* Adds shadow effects to left and bottom */
+    1px 0px 10px #333; /* Adds shadow effects to right and top */
+}
+input {
+  background: #f2f2f2;
+  width: 90%;
+  border: 0;
+  margin: 15px 5%;
+  padding: 3%;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+input:focus{
+  color: white;
+  background-color: #E8E5DD;
+  outline: 0;
+}
+button {
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #605191;
+  width: 90%;
+  border: 0;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 4% 0;
+}
+.message {
+  margin: 15px 0 0;
+  color: grey;
+  font-size: 16px;
+  padding-bottom: 3%;
+}
+.message a {
+  color: blue;
+  text-decoration: none;
+}
+.left{
+  width: 42%;
+  margin-right: 2%;
+}
+.right{
+ width: 42%;
+}
